@@ -1,60 +1,60 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="https://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on </title>
-    <link>http://andalibi.me/ctfblog/post/</link>
+    <link>https://andalibi.me/ctfblog/post/</link>
     <description>Recent content in Posts on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Sun, 01 Apr 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://andalibi.me/ctfblog/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://andalibi.me/ctfblog/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Toddler&#39;s Bottle Part 1</title>
-      <link>http://andalibi.me/ctfblog/post/toddlers-bottle-part-1/</link>
+      <link>https://andalibi.me/ctfblog/post/toddlers-bottle-part-1/</link>
       <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://andalibi.me/ctfblog/post/toddlers-bottle-part-1/</guid>
+      <guid>https://andalibi.me/ctfblog/post/toddlers-bottle-part-1/</guid>
       <description>File Descriptor Using the ls -la you&#39;ll notice that the suid bit is set for fd executable. Checking the code:
 #include &amp;lt;stdio.h&amp;gt; #include &amp;lt;stdlib.h&amp;gt; #include &amp;lt;string.h&amp;gt; char buf[32]; int main(int argc, char* argv[], char* envp[]){ if(argc&amp;lt;2){ printf(&amp;quot;pass argv[1] a number\n&amp;quot;); return 0; } int fd = atoi( argv[1] ) - 0x1234; int len = 0; len = read(fd, buf, 32); if(!strcmp(&amp;quot;LETMEWIN\n&amp;quot;, buf)){ printf(&amp;quot;good job :)\n&amp;quot;); system(&amp;quot;/bin/cat flag&amp;quot;); exit(0); } printf(&amp;quot;learn about Linux file IO\n&amp;quot;); return 0; }  Two important function calls inside the code are atio() which initializes the fd.</description>
     </item>
     
     <item>
       <title>Some Reversing/Misc Mix!</title>
-      <link>http://andalibi.me/ctfblog/post/some-reversing/misc-mix/</link>
+      <link>https://andalibi.me/ctfblog/post/some-reversing/misc-mix/</link>
       <pubDate>Sun, 11 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://andalibi.me/ctfblog/post/some-reversing/misc-mix/</guid>
+      <guid>https://andalibi.me/ctfblog/post/some-reversing/misc-mix/</guid>
       <description>The hidden function This binary politely greets you when you run it, no useful string with rabin2. Running it with r2 you&#39;ll see a very simple entry0 followed by a main, yet the binary is healthy, no hlt or bad jump whatsoever. Trying afl , gave an interesting list of functions, two of which was entry1.init and entry2.fini. Seeking to them and there was a jump just before a function epilogue.</description>
     </item>
     
     <item>
       <title>HackTheBox Writeups Removed</title>
-      <link>http://andalibi.me/ctfblog/post/hackthebox-writeups-removed/</link>
+      <link>https://andalibi.me/ctfblog/post/hackthebox-writeups-removed/</link>
       <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://andalibi.me/ctfblog/post/hackthebox-writeups-removed/</guid>
+      <guid>https://andalibi.me/ctfblog/post/hackthebox-writeups-removed/</guid>
       <description>Unfortunately I had to remove HTB writeups because of its terms of service. HackTheBox forum is the best place to get some hint on the challenges.</description>
     </item>
     
     <item>
       <title>Some CTF qualifier somewhere</title>
-      <link>http://andalibi.me/ctfblog/post/some-ctf-qualifier-somewhere/</link>
+      <link>https://andalibi.me/ctfblog/post/some-ctf-qualifier-somewhere/</link>
       <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://andalibi.me/ctfblog/post/some-ctf-qualifier-somewhere/</guid>
+      <guid>https://andalibi.me/ctfblog/post/some-ctf-qualifier-somewhere/</guid>
       <description>The &#34;Interesting&#34; input This binary asked for some input to generate the flag. A sym.check function shines in main:
  This function has 3 important parts: A check for length of the password which should be at least 0x13 or 19 characters, as shown in the figure with number 1.  First four letters, indicated by 2 in the figure, implying a password starting with aqua.  A for loop indicated by 3 in the figure, which is almost the most challenging (still trivial) part.</description>
     </item>
     
     <item>
       <title>Gocha!</title>
-      <link>http://andalibi.me/ctfblog/post/gocha/</link>
+      <link>https://andalibi.me/ctfblog/post/gocha/</link>
       <pubDate>Sat, 10 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://andalibi.me/ctfblog/post/gocha/</guid>
+      <guid>https://andalibi.me/ctfblog/post/gocha/</guid>
       <description>A crypto-reversing challenge Summary: Gocha was a crypto-reversing challenge for 100 points. We were given the following code in python 3. This code is for an online lottery system which asks provides the user with 3 choices of seemingly random numbers, one of which is the winner key and the other two is losing keys. So the probability of winning is 33.3%. However, the user has to win 90% of times for playing at least 30 times.</description>
     </item>
     

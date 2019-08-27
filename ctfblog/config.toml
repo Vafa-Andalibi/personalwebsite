@@ -1,4 +1,4 @@
-baseurl         = "http://andalibi.me/ctfblog/"
+baseurl         = "https://andalibi.me/ctfblog/"
 theme           = "casper-two"
 languageCode    = "en-US"
 disqusShortname = ""
@@ -55,7 +55,7 @@ canonifyurls    = true
 
 [[menu.main]]
   name = "About Me"
-  url = "http://andalibi.me"
+  url = "https://andalibi.me"
   weight = 95
 
 [[menu.main]]

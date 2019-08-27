@@ -147,13 +147,13 @@ Warning: Cannot initialize section headers
 Warning: Cannot initialize strings table
 Warning: Cannot initialize dynamic strings
 000 0x000000b4 0x004000b4   4   5 (LOAD0) ascii UPX!
-7050 0x0004a656 0x0044a656  78  79 (LOAD0) ascii $Info: This file is packed with the UPX executable packer http://upx.sf.net $\n
+7050 0x0004a656 0x0044a656  78  79 (LOAD0) ascii $Info: This file is packed with the UPX executable packer https://upx.sf.net $\n
 7051 0x0004a6a5 0x0044a6a5  75  76 (LOAD0) ascii $Id: UPX 3.08 Copyright (C) 1996-2011 the UPX Team. All Rights Reserved. $\n
 8071 0x00051d8c 0x00051d8c   4   5 () ascii UPX!
 8072 0x00051d94 0x00051d94   5   6 () ascii UPX!\r
 #+END_SRC
 
- Trying to take the same approach as, for instance, [[http://www.behindthefirewalls.com/2013/12/unpacking-upx-file-manually-with-ollydbg.html][here]] didn't work considering that the challenge is "toddler". So turns out it's as easy as literally unpacking it: 
+ Trying to take the same approach as, for instance, [[https://www.behindthefirewalls.com/2013/12/unpacking-upx-file-manually-with-ollydbg.html][here]] didn't work considering that the challenge is "toddler". So turns out it's as easy as literally unpacking it: 
 
  #+BEGIN_SRC bash
 [root:~/hostDownloads]# upx -d flag                   

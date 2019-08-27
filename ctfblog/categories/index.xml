@@ -1,48 +1,48 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="https://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on </title>
-    <link>http://andalibi.me/ctfblog/categories/</link>
+    <link>https://andalibi.me/ctfblog/categories/</link>
     <description>Recent content in Categories on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     
-	<atom:link href="http://andalibi.me/ctfblog/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://andalibi.me/ctfblog/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Crypto</title>
-      <link>http://andalibi.me/ctfblog/categories/crypto/</link>
+      <link>https://andalibi.me/ctfblog/categories/crypto/</link>
       <pubDate>Sat, 10 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://andalibi.me/ctfblog/categories/crypto/</guid>
+      <guid>https://andalibi.me/ctfblog/categories/crypto/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Other</title>
-      <link>http://andalibi.me/ctfblog/categories/other/</link>
+      <link>https://andalibi.me/ctfblog/categories/other/</link>
       <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://andalibi.me/ctfblog/categories/other/</guid>
+      <guid>https://andalibi.me/ctfblog/categories/other/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Pwning</title>
-      <link>http://andalibi.me/ctfblog/categories/pwning/</link>
+      <link>https://andalibi.me/ctfblog/categories/pwning/</link>
       <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://andalibi.me/ctfblog/categories/pwning/</guid>
+      <guid>https://andalibi.me/ctfblog/categories/pwning/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Reversing</title>
-      <link>http://andalibi.me/ctfblog/categories/reversing/</link>
+      <link>https://andalibi.me/ctfblog/categories/reversing/</link>
       <pubDate>Sun, 11 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://andalibi.me/ctfblog/categories/reversing/</guid>
+      <guid>https://andalibi.me/ctfblog/categories/reversing/</guid>
       <description></description>
     </item>
     

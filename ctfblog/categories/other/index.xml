@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="https://www.w3.org/2005/Atom">
   <channel>
     <title>Other on </title>
-    <link>http://andalibi.me/ctfblog/categories/other/</link>
+    <link>https://andalibi.me/ctfblog/categories/other/</link>
     <description>Recent content in Other on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Thu, 01 Mar 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://andalibi.me/ctfblog/categories/other/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://andalibi.me/ctfblog/categories/other/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>HackTheBox Writeups Removed</title>
-      <link>http://andalibi.me/ctfblog/post/hackthebox-writeups-removed/</link>
+      <link>https://andalibi.me/ctfblog/post/hackthebox-writeups-removed/</link>
       <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://andalibi.me/ctfblog/post/hackthebox-writeups-removed/</guid>
+      <guid>https://andalibi.me/ctfblog/post/hackthebox-writeups-removed/</guid>
       <description>Unfortunately I had to remove HTB writeups because of its terms of service. HackTheBox forum is the best place to get some hint on the challenges.</description>
     </item>
     

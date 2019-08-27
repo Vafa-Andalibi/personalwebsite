@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="https://www.w3.org/2005/Atom">
   <channel>
     <title>Pwning on </title>
-    <link>http://andalibi.me/ctfblog/categories/pwning/</link>
+    <link>https://andalibi.me/ctfblog/categories/pwning/</link>
     <description>Recent content in Pwning on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Sun, 01 Apr 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://andalibi.me/ctfblog/categories/pwning/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://andalibi.me/ctfblog/categories/pwning/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Toddler&#39;s Bottle Part 1</title>
-      <link>http://andalibi.me/ctfblog/post/toddlers-bottle-part-1/</link>
+      <link>https://andalibi.me/ctfblog/post/toddlers-bottle-part-1/</link>
       <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://andalibi.me/ctfblog/post/toddlers-bottle-part-1/</guid>
+      <guid>https://andalibi.me/ctfblog/post/toddlers-bottle-part-1/</guid>
       <description>File Descriptor Using the ls -la you&#39;ll notice that the suid bit is set for fd executable. Checking the code:
 #include &amp;lt;stdio.h&amp;gt; #include &amp;lt;stdlib.h&amp;gt; #include &amp;lt;string.h&amp;gt; char buf[32]; int main(int argc, char* argv[], char* envp[]){ if(argc&amp;lt;2){ printf(&amp;quot;pass argv[1] a number\n&amp;quot;); return 0; } int fd = atoi( argv[1] ) - 0x1234; int len = 0; len = read(fd, buf, 32); if(!strcmp(&amp;quot;LETMEWIN\n&amp;quot;, buf)){ printf(&amp;quot;good job :)\n&amp;quot;); system(&amp;quot;/bin/cat flag&amp;quot;); exit(0); } printf(&amp;quot;learn about Linux file IO\n&amp;quot;); return 0; }  Two important function calls inside the code are atio() which initializes the fd.</description>
     </item>

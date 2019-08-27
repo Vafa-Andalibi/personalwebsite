@@ -1,98 +1,98 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="https://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://andalibi.me/ctfblog/post/toddlers-bottle-part-1/</loc>
+    <loc>https://andalibi.me/ctfblog/post/toddlers-bottle-part-1/</loc>
     <lastmod>2018-04-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://andalibi.me/ctfblog/post/some-reversing/misc-mix/</loc>
+    <loc>https://andalibi.me/ctfblog/post/some-reversing/misc-mix/</loc>
     <lastmod>2018-03-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://andalibi.me/ctfblog/post/hackthebox-writeups-removed/</loc>
+    <loc>https://andalibi.me/ctfblog/post/hackthebox-writeups-removed/</loc>
     <lastmod>2018-03-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://andalibi.me/ctfblog/post/some-ctf-qualifier-somewhere/</loc>
+    <loc>https://andalibi.me/ctfblog/post/some-ctf-qualifier-somewhere/</loc>
     <lastmod>2018-03-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://andalibi.me/ctfblog/post/gocha/</loc>
+    <loc>https://andalibi.me/ctfblog/post/gocha/</loc>
     <lastmod>2018-02-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://andalibi.me/ctfblog/</loc>
+    <loc>https://andalibi.me/ctfblog/</loc>
     <lastmod>2018-04-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://andalibi.me/ctfblog/categories/</loc>
+    <loc>https://andalibi.me/ctfblog/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://andalibi.me/ctfblog/categories/crypto/</loc>
+    <loc>https://andalibi.me/ctfblog/categories/crypto/</loc>
     <lastmod>2018-02-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://andalibi.me/ctfblog/events/</loc>
+    <loc>https://andalibi.me/ctfblog/events/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://andalibi.me/ctfblog/events/harekaze/</loc>
+    <loc>https://andalibi.me/ctfblog/events/harekaze/</loc>
     <lastmod>2018-02-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://andalibi.me/ctfblog/events/htb/</loc>
+    <loc>https://andalibi.me/ctfblog/events/htb/</loc>
     <lastmod>2018-03-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://andalibi.me/ctfblog/events/other/</loc>
+    <loc>https://andalibi.me/ctfblog/events/other/</loc>
     <lastmod>2018-03-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://andalibi.me/ctfblog/categories/other/</loc>
+    <loc>https://andalibi.me/ctfblog/categories/other/</loc>
     <lastmod>2018-03-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://andalibi.me/ctfblog/post/</loc>
+    <loc>https://andalibi.me/ctfblog/post/</loc>
     <lastmod>2018-04-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://andalibi.me/ctfblog/events/pwnable.kr/</loc>
+    <loc>https://andalibi.me/ctfblog/events/pwnable.kr/</loc>
     <lastmod>2018-04-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://andalibi.me/ctfblog/categories/pwning/</loc>
+    <loc>https://andalibi.me/ctfblog/categories/pwning/</loc>
     <lastmod>2018-04-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://andalibi.me/ctfblog/categories/reversing/</loc>
+    <loc>https://andalibi.me/ctfblog/categories/reversing/</loc>
     <lastmod>2018-03-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>

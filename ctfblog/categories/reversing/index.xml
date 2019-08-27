@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="https://www.w3.org/2005/Atom">
   <channel>
     <title>Reversing on </title>
-    <link>http://andalibi.me/ctfblog/categories/reversing/</link>
+    <link>https://andalibi.me/ctfblog/categories/reversing/</link>
     <description>Recent content in Reversing on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Sun, 11 Mar 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://andalibi.me/ctfblog/categories/reversing/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://andalibi.me/ctfblog/categories/reversing/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Some Reversing/Misc Mix!</title>
-      <link>http://andalibi.me/ctfblog/post/some-reversing/misc-mix/</link>
+      <link>https://andalibi.me/ctfblog/post/some-reversing/misc-mix/</link>
       <pubDate>Sun, 11 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://andalibi.me/ctfblog/post/some-reversing/misc-mix/</guid>
+      <guid>https://andalibi.me/ctfblog/post/some-reversing/misc-mix/</guid>
       <description>The hidden function This binary politely greets you when you run it, no useful string with rabin2. Running it with r2 you&#39;ll see a very simple entry0 followed by a main, yet the binary is healthy, no hlt or bad jump whatsoever. Trying afl , gave an interesting list of functions, two of which was entry1.init and entry2.fini. Seeking to them and there was a jump just before a function epilogue.</description>
     </item>
     
     <item>
       <title>Some CTF qualifier somewhere</title>
-      <link>http://andalibi.me/ctfblog/post/some-ctf-qualifier-somewhere/</link>
+      <link>https://andalibi.me/ctfblog/post/some-ctf-qualifier-somewhere/</link>
       <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://andalibi.me/ctfblog/post/some-ctf-qualifier-somewhere/</guid>
+      <guid>https://andalibi.me/ctfblog/post/some-ctf-qualifier-somewhere/</guid>
       <description>The &#34;Interesting&#34; input This binary asked for some input to generate the flag. A sym.check function shines in main:
  This function has 3 important parts: A check for length of the password which should be at least 0x13 or 19 characters, as shown in the figure with number 1.  First four letters, indicated by 2 in the figure, implying a password starting with aqua.  A for loop indicated by 3 in the figure, which is almost the most challenging (still trivial) part.</description>
     </item>
