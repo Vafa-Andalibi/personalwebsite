@@ -1,0 +1,12 @@
++++
+title= ""
+date= ""
+weight= 10
+Author= "V.A."
+authorAvatar= "img/v_logo.png"
+events= []
+tags = []
+categories = []
+nomenu="main"
+image= "img/"
++++

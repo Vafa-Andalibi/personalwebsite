@@ -1,0 +1,50 @@
++++
+title= "Some CTF qualifier somewhere"
+date= "2018-03-01"
+weight= 10
+Author= "V.A."
+authorAvatar= "img/v_logo.png"
+events= ["Other"]
+tags = ["Other"]
+categories = ["Reversing"]
+nomenu="main"
+image= "img/2018-03/other.jpg"
++++
+
+* The "Interesting" input
+
+This binary asked for some input to generate the flag. A ~sym.check~ function shines in main:
+
+<img class="special-img-class" src="/img/2018-03/interestingchallenge.jpg" />
+
+This function has 3 important parts:
+1. A check for length of the password which should be at least ~0x13~ or ~19~ characters, as shown in the figure with number 1.   
+2. First four letters, indicated by 2 in the figure, implying a password starting with ~aqua~. 
+3. A for loop indicated by 3 in the figure, which is almost the most challenging (still trivial) part. The for loop is checking the last character of the input and compares it with the first character, and both cursors move towards each other. This means the password could be anything that starts with ~aqua~ and ends with ~auqa~ and has mirrored characters in the middle part. 
+
+ 
+* Not-so-weird indirect addressing
+
+Segfault with wrong password. Nice. Notice the high-probably-interesting ~sym.get_number~ in main which looks like this: 
+
+<img class="special-img-class" src="/img/2018-03/indirect.jpg" />
+
+[[https://www.tutorialspoint.com/c_standard_library/c_function_strtol.htm][This]] is the documentation for ~strtol()~. Here it's converting the number in the input to base 10 number. ~eax~ will contain the address of the converted variable. Let's go to the check in the main: 
+
+<img class="special-img-class" src="/img/2018-03/indirect2.jpg" />
+
+Note what's happening in the two lines: 
+1. The first line is putting the value of the address in ~eax~ into ~eax~. This means that the output of ~strtol()~ should be an address. 
+2. That value of that address should be the hex value that you in the figure starting with ~dead~ (let's stop being SEO friendly a little bit to prevent spoilers :] ). 
+
+So, we use the same address and try to tailor the input to produce that particular address for us (use some base10 to hex converter). 
+
+
+* Some weird pattern guiding challenge
+
+In this one, the goal is to /guide/ someone somewhere. In the main function the followings symbols are interesting:
+1. ~sym.graph_gen~
+2. ~sym.traverse~
+3. ~sym.win~ / ~sym.lose~
+There is a stack checker and a very weird function called ~print_board~ even though there is no sign on drawing the board any where. Probably with some special input or maybe after winning? 
+Anyways, the ~graph_gen~ seems to generate some random path which and ~sym.traverse~ uses an input which should be based on ~R~ and ~D~ characters (probably right and down?). 

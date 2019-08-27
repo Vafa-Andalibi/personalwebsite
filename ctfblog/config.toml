@@ -1,0 +1,83 @@
+baseurl         = "http://andalibi.me/ctfblog/"
+theme           = "casper-two"
+languageCode    = "en-US"
+disqusShortname = ""
+paginate        = 6
+#SectionPagesMenu = "main"
+canonifyurls    = true
+
+[params]
+  title       = "Capture The Flag"
+  subtitle    = "My CTF write-ups"
+  copyright   = "© 2018"
+
+  cover       = "img/blog-cover.jpg"
+  description = ""
+  metaDescription = ""
+  googleAnalytics = ""
+  customCSS = []
+  RSSLink = ""
+
+  twitterName = "ad_vaf8"
+#  fbName = "fakeghost"
+  githubName = "Vafa-Andalibi"
+  linkedinName = "vafa-andalibi"
+ # mediumName = ""
+
+  logo = "img/ctf_logo.png"
+  orgName = ""
+  orgWebsite = "https://www.andalibi.me"
+  orgDescription = "Here is a description placeholder for your org"
+
+  showSupport = true
+
+  author = "Vafa Andalibi"
+  authorAvatar = "img/ghost-icon.png"
+  authorLocation = "IN, USA"
+  authorWebsite = "https://andalibi.me"
+  authorDescription = "CTF enthusiast"
+
+  pageNotFoundTitle = "404 - Page not found"
+  #casper or caspertwo
+  singleViewStyle = "casper"
+
+[taxonomies]
+  tag = "events"
+  category = "categories"
+
+[permalinks]
+  post = "/post/:slug/"
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 200
+
+[[menu.main]]
+  name = "About Me"
+  url = "http://andalibi.me"
+  weight = 95
+
+[[menu.main]]
+  name = "Events"
+  url = "/events"
+  weight = 100
+
+[[menu.main]]
+  name = "Reversing"
+  url = "/categories/reversing"
+  weight = 99
+
+[[menu.main]]
+  name = "Crypto"
+  url = "/categories/crypto"
+  weight = 99
+
+[[menu.main]]
+  name = "Web"
+  url = "/categories/web"
+  weight = 99
+
+
+
+

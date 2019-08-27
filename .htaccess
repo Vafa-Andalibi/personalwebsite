@@ -1,0 +1,15 @@
+RewriteEngine On
+RewriteCond %{HTTPS} !=on
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301,NE] 
+
+
+Redirect /about http://www.andalibi.me/#about
+Redirect /contact http://www.andalibi.me/#contact
+Redirect /education http://www.andalibi.me/#education
+Redirect /experience http://www.andalibi.me/#experience
+Redirect /interests http://www.andalibi.me/#my_interests
+Redirect /publications http://www.andalibi.me/#publications
+Redirect /references http://www.andalibi.me/#references
+Redirect /skills http://www.andalibi.me/#my_skills
+
+

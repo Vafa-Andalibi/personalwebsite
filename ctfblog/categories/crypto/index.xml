@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Crypto on </title>
+    <link>http://andalibi.me/ctfblog/categories/crypto/</link>
+    <description>Recent content in Crypto on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sat, 10 Feb 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://andalibi.me/ctfblog/categories/crypto/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Gocha!</title>
+      <link>http://andalibi.me/ctfblog/post/gocha/</link>
+      <pubDate>Sat, 10 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://andalibi.me/ctfblog/post/gocha/</guid>
+      <description>A crypto-reversing challenge Summary: Gocha was a crypto-reversing challenge for 100 points. We were given the following code in python 3. This code is for an online lottery system which asks provides the user with 3 choices of seemingly random numbers, one of which is the winner key and the other two is losing keys. So the probability of winning is 33.3%. However, the user has to win 90% of times for playing at least 30 times.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,64 @@
++++
+title= "Some Reversing/Misc Mix!"
+date= "2018-03-11"
+weight= 10
+Author= "V.A."
+authorAvatar= "img/v_logo.png"
+events= ["Other"]
+tags = ["Other"]
+categories = ["Reversing"]
+nomenu="main"
+image= "img/2018-03/other.jpg"
++++
+
+* The hidden function
+
+This binary politely greets you when you run it, no useful string with rabin2. Running it with r2 you'll see a very simple ~entry0~ followed by a ~main~, yet the binary is healthy, no ~hlt~ or bad jump whatsoever. Trying ~afl~ , gave an interesting list of functions, two of which was ~entry1.init~ and ~entry2.fini~. Seeking to them and there was a jump just before a function epilogue. Looked for references for the function, i.e. ~0x804841d~, using ~axt [addr]~ and surprisingly nothing. This function as you see here seems to contain words and if you follow it at the end there is a loop followed by a printing function. Typical for a flag printer. 
+
+<img class="special-img-class" src="/img/2018-03/hiddenfunction.png" />
+
+Patching the entry0 to go call this address instead of main, plotted the flag successfully.
+    
+* Reversed Binary
+
+A very interesting file about which rabin2 reveals some interesting strings: 
+
+<img class="special-img-class" src="/img/2018-03/mirror1.png" />
+
+The words are mirrored: ~General~, ~Heading~, ~Note~, ~Footenote~, etc. Looking more around and I noticed it's actually an excel file, mirrored! As usual, probably there are better ways to do it, but this small script did the job:
+
+#+BEGIN_SRC python
+with open("Misc", 'rb') as ff:
+    q = bytearray(ff.read())
+    q.reverse()
+    with open("Misc_mirror",'wb') as ff2:
+        ff2.write(q)
+#+END_SRC
+
+and then trying to open it with ~LibreOffice Calc~ revealed the flag: 
+
+<img class="special-img-class" src="/img/2018-03/mirror2.png" />
+
+* Dialtone wav
+
+This (misc) challenge gave us a very short wave file containing a dial tone. First, I naively tried to plot the frequency of the tone to find out the numbers based on their frequencies using the [[https://en.wikipedia.org/wiki/Dual-tone_multi-frequency_signaling][dial pad frequencies]]:
+
+#+BEGIN_SRC python
+from scipy import signal
+from scipy.io import wavfile
+import matplotlib.pyplot as plt
+
+q =  wavfile.read("./Misc")
+f, t, Sxx = signal.spectrogram(q[1], q[0])
+plt.pcolormesh(t, f, Sxx)
+plt.show()
+
+#+END_SRC
+
+<img class="special-img-class" src="/img/2018-03/dial.png" /> 
+
+However, some of the tones spectrum were not making any sense. So, google came to help by introducing me to this [[http://dialabc.com/sound/detect/][very nice dtmf decoder]]:
+
+<img class="special-img-class" src="/img/2018-03/dial2.png" /> 
+
+however that number didn't work as a flag, [[https://www.youtube.com/watch?v=6WTdTwcmxyo][the song's number]], however, did :D 
