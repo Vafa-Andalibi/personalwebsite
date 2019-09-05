@@ -95,7 +95,7 @@ var skillset = {
                         including specification, hardware, software, and mechanical/environmental design. More information about the project is a available
                         <a href="https://shc.indiana.edu/doc/Final%20Bryce-Dark-Skies-Report.pdf" target="_blank">here</a>.`
     },
-    'Receptive Fields Analysis': {
+    'Receptive Fields': {
       'Programming/Scripting Languages': ['Matlab'],
       'Tools/Frameworks': ['Git'],
       'OS': ['Linux: Ubuntu'],
