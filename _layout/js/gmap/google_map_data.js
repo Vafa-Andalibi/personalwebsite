@@ -95,6 +95,13 @@ var skillset = {
                         including specification, hardware, software, and mechanical/environmental design. More information about the project is a available
                         <a href="https://shc.indiana.edu/doc/Final%20Bryce-Dark-Skies-Report.pdf" target="_blank">here</a>.`
     },
+    'Receptive Fields Analysis': {
+      'Programming/Scripting Languages': ['Matlab'],
+      'Tools/Frameworks': ['Git'],
+      'OS': ['Linux: Ubuntu'],
+      'Other Skills': [],
+      'description': `Design and implementation of a GUI in Matlab for receptive field analysis using spike triggered averaging.`
+  },
     // '': { 
     //         'Programming/Scripting Languages': [], 
     //         'Tools/Frameworks': [], 
