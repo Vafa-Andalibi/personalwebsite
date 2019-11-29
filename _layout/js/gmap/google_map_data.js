@@ -60,7 +60,7 @@ var skillset = {
         'Programming/Scripting Languages': ['Python'],
         'Tools/Frameworks': ['Git', 'Pycharm'],
         'OS': ['Windows', 'Linux: Ubuntu', 'MacOS'],
-        'Other Skills': ['DevOps'],
+        'Other Skills': ['DevOps', 'CI'],
         'description': `I had the opportunity to contribute to Cloudmesh project. 
                         Cloudmesh enables you to access multi-cloud environments such as AWS, Azure, Google, and OpenStack Clouds very easily. 
                         The repository that I was mostly contributed to is available in <a href="https://github.com/cloudmesh/cloudmesh-cloud" target="_blank">GitHub</a>.
