@@ -3,13 +3,13 @@ var skillset = {
         'Programming/Scripting Languages': ['Python', 'JavaScript', 'HTML/CSS'],
         'Tools/Frameworks': ['Git', 'Pycharm'],
         'OS': ['Windows', 'Linux: Ubuntu', 'MacOS'],
-        'Other Skills': ['HPC'],
+        'Other Skills': ['HPC', 'CI'],
         'description': `CxSystem is a simulation framework, which operates on personal computers. 
                         We have tested the simulation software with a simplified version of a comprehensive cortical microcircuit model,
                          which is available as configuration file. The CxSystem aims at easy testing and buildup of diverse models at single 
                          cell resolution. Implemented on the top of the Python-based Brian2 simulator, CxSystem supports the main goal of Brian, 
                          i.e. minimizing development time, by providing the user with a simplified interface. The code is available in 
-                         <a href="https://github.com/VisualNeuroscience-UH/CxSystem" target="_blank">GitHub</a>.`
+                         <a href="https://github.com/VisualNeuroscience-UH/CxSystem2" target="_blank">GitHub</a>.`
     },
     'MUD-Visualizer': {
         'Programming/Scripting Languages': ['JavaScript', 'HTML/CSS'],
@@ -60,7 +60,7 @@ var skillset = {
         'Programming/Scripting Languages': ['Python'],
         'Tools/Frameworks': ['Git', 'Pycharm'],
         'OS': ['Windows', 'Linux: Ubuntu', 'MacOS'],
-        'Other Skills': ['DevOps'],
+        'Other Skills': ['DevOps', 'CI'],
         'description': `I had the opportunity to contribute to Cloudmesh project. 
                         Cloudmesh enables you to access multi-cloud environments such as AWS, Azure, Google, and OpenStack Clouds very easily. 
                         The repository that I was mostly contributed to is available in <a href="https://github.com/cloudmesh/cloudmesh-cloud" target="_blank">GitHub</a>.
