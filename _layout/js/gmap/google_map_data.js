@@ -102,7 +102,13 @@ var skillset = {
       'Other Skills': [],
       'description': `Design and implementation of a GUI in Matlab for receptive field analysis using spike triggered averaging.`
   },
-    // '': { 
+    'Vulnerability Inventory': { 
+          'Programming/Scripting Languages': ["Go"], 
+          'Tools/Frameworks': ["AWS", "Lambda", "Datadog"], 
+          'OS': ["Mac"], 
+          'Other Skills': ["Software Design"] 
+      },
+  // '': { 
     //         'Programming/Scripting Languages': [], 
     //         'Tools/Frameworks': [], 
     //         'OS': [], 
@@ -175,6 +181,14 @@ var journal_bibtex = [
 ]
 
 var conference_bibtex = [
+    `@inproceedings{kim2020fingerprinting,
+      title={Fingerprinting Edge and Cloud Services in IoT},
+      author={Kim, DongInn and Andalibi, Vafa and Camp, L Jean},
+      booktitle={2020 13th International Conference on Systematic Approaches to Digital Forensic Engineering (SADFE)},
+      pages={13--21},
+      year={2020},
+      organization={IEEE}
+    }`,
     `@inproceedings{andalibi2015data,
         title={Data correction for seven activity trackers based on regression models},
         author={Andalibi, Vafa and Honko, Harri and Christophe, Francois and Viik, Jari},
@@ -200,7 +214,7 @@ var conference_bibtex = [
     `@inproceedings{andalibi2019throwing,
         title={Throwing MUD into the FOG: Defending IoT and Fog by expanding MUD to Fog network},
         author={Andalibi, Vafa and Kim, DongInn and Camp, Jean},
-        booktitle={2nd $\{$USENIX$\}$ Workshop on Hot Topics in Edge Computing (HotEdge 19)},
+        booktitle={2nd USENIX Workshop on Hot Topics in Edge Computing (HotEdge 19)},
         year={2019}
       }`,
     `@inproceedings{andalibi2016simea,
