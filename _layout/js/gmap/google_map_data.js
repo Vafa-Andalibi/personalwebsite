@@ -96,19 +96,19 @@ var skillset = {
                         <a href="https://shc.indiana.edu/doc/Final%20Bryce-Dark-Skies-Report.pdf" target="_blank">here</a>.`
     },
     'Receptive Fields': {
-      'Programming/Scripting Languages': ['Matlab'],
-      'Tools/Frameworks': ['Git'],
-      'OS': ['Linux: Ubuntu'],
-      'Other Skills': [],
-      'description': `Design and implementation of a GUI in Matlab for receptive field analysis using spike triggered averaging.`
-  },
-    'Vulnerability Inventory': { 
-          'Programming/Scripting Languages': ["Go"], 
-          'Tools/Frameworks': ["AWS", "Lambda", "Datadog"], 
-          'OS': ["Mac"], 
-          'Other Skills': ["Software Design"] 
-      },
-  // '': { 
+        'Programming/Scripting Languages': ['Matlab'],
+        'Tools/Frameworks': ['Git'],
+        'OS': ['Linux: Ubuntu'],
+        'Other Skills': [],
+        'description': `Design and implementation of a GUI in Matlab for receptive field analysis using spike triggered averaging.`
+    },
+    'Vulnerability Inventory': {
+        'Programming/Scripting Languages': ["Go"],
+        'Tools/Frameworks': ["AWS", "Lambda", "Datadog"],
+        'OS': ["Mac"],
+        'Other Skills': ["Software Design"]
+    },
+    // '': { 
     //         'Programming/Scripting Languages': [], 
     //         'Tools/Frameworks': [], 
     //         'OS': [], 
@@ -117,66 +117,7 @@ var skillset = {
 }
 
 var journal_bibtex = [
-    `@article{christophe2015survey,
-        title={Survey and evaluation of neural computation models for bio-integrated systems},
-        author={Christophe, Francois and Andalibi, Vafa and Laukkarinen, Teemu and Mikkonen, Tommi and Koskimies, Kai},
-        journal={Nano Communication Networks},
-        volume={6},
-        number={4},
-        pages={155--165},
-        year={2015},
-        publisher={Elsevier}
-      }`,
-    `@article{honko2015w2e,
-        title={W2E---Wellness Warehouse Engine for Semantic Interoperability of Consumer Health Data},
-        author={Honko, Harri and Andalibi, Vafa and Aaltonen, Timo and Parak, Jakub and Saaranen, Mika and Viik, Jari and Korhonen, Ilkka},
-        journal={IEEE journal of biomedical and health informatics},
-        volume={20},
-        number={6},
-        pages={1632--1639},
-        year={2015},
-        publisher={IEEE}
-      }`,
-    `@article{andalibi2019controlling,
-        title={Controlling complexity of cerebral cortex simulations—I: CxSystem, a flexible cortical simulation framework},
-        author={Andalibi, Vafa and Hokkanen, Henri and Vanni, Simo},
-        journal={Neural computation},
-        volume={31},
-        number={6},
-        pages={1048--1065},
-        year={2019},
-        publisher={MIT Press}
-      }`,
-    `@article{hokkanen2019controlling,
-        title={Controlling complexity of cerebral cortex simulations—II: Streamlined microcircuits},
-        author={Hokkanen, Henri and Andalibi, Vafa and Vanni, Simo},
-        journal={Neural computation},
-        volume={31},
-        number={6},
-        pages={1066--1084},
-        year={2019},
-        publisher={MIT Press}
-      }`,
-    `@article{christophe2017building,
-        title={Building wireless sensor networks with biological cultures: components and integration challenges},
-        author={Christophe, Francois and Laukkarinen, Teemu and Mikkonen, Tommi and Massera, Jonathan and Andalibi, Vafa},
-        journal={International Journal of Parallel, Emergent and Distributed Systems},
-        volume={32},
-        number={1},
-        pages={56--73},
-        year={2017},
-        publisher={Taylor \& Francis}
-      }`,
-    `@article{andalibi2016effective,
-        title={Effective Connectivity Analysis in Brain Networks: A GPU-Accelerated Implementation of the Cox Method},
-        author={Andalibi, Vafa and Christophe, Francois and Laukkarinen, Teemu and Mikkonen, Tommi},
-        journal={IEEE Journal of Selected Topics in Signal Processing},
-        volume={10},
-        number={7},
-        pages={1226--1237},
-        year={2016},
-        publisher={IEEE}
-      }`
+
 
 ]
 
@@ -189,6 +130,19 @@ var conference_bibtex = [
       year={2020},
       organization={IEEE}
     }`,
+    `@inproceedings{andalibi2019throwing,
+      title={Throwing MUD into the FOG: Defending IoT and Fog by expanding MUD to Fog network},
+      author={Andalibi, Vafa and Kim, DongInn and Camp, Jean},
+      booktitle={2nd USENIX Workshop on Hot Topics in Edge Computing (HotEdge 19)},
+      year={2019}
+    }`,
+    `@inproceedings{andalibi2017analysis,
+      title={Analysis of Paradoxes in Fingerprint Countermeasures},
+      author={Andalibi, Vafa and Christophe, Francois and Mikkonen, Tommi and others},
+      booktitle={Proceedings of the 21st Conference of Open Innovations Association FRUCT, University of Helsinki, Helsinki, Finland},
+      year={2017},
+      organization={FRUCT Oy}
+    }`,
     `@inproceedings{andalibi2015data,
         title={Data correction for seven activity trackers based on regression models},
         author={Andalibi, Vafa and Honko, Harri and Christophe, Francois and Viik, Jari},
@@ -198,25 +152,13 @@ var conference_bibtex = [
         organization={IEEE}
       }`,
     `@inproceedings{christophe2015pattern,
-        title={Pattern recognition with spiking neural networks: a simple training method.},
+        title={Pattern recognition with spiking neural networks: a simple training method},
         author={Christophe, Fran{\c{c}}ois and Mikkonen, Tommi and Andalibi, Vafa and Koskimies, Kai and Laukkarinen, Teemu},
-        booktitle={SPLST},
+        booktitle={14th Symposium on Programming Languages and Software Tools},
         pages={296--308},
         year={2015}
       }`,
-    `@inproceedings{andalibi2017analysis,
-        title={Analysis of Paradoxes in Fingerprint Countermeasures},
-        author={Andalibi, Vafa and Christophe, Francois and Mikkonen, Tommi and others},
-        booktitle={Proceedings of the 21st Conference of Open Innovations Association FRUCT, University of Helsinki, Helsinki, Finland},
-        year={2017},
-        organization={FRUCT Oy}
-      }`,
-    `@inproceedings{andalibi2019throwing,
-        title={Throwing MUD into the FOG: Defending IoT and Fog by expanding MUD to Fog network},
-        author={Andalibi, Vafa and Kim, DongInn and Camp, Jean},
-        booktitle={2nd USENIX Workshop on Hot Topics in Edge Computing (HotEdge 19)},
-        year={2019}
-      }`,
+
     `@inproceedings{andalibi2016simea,
         title={SiMEA: a Framework for simulating neurons on Multi-Electrode Array},
         author={Andalibi, Vafa and Aaltonen, Timo and Christophe, Francois and Mikkonen, Tommi},
@@ -230,5 +172,66 @@ var conference_bibtex = [
         author={Christophe, Francois and Andalibi, Vafa and Lenk, Kerstin and Mikkonen, Tommi and Hyttinen, Jari},
         booktitle={38th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)},
         year={2016},
+      }`,
+
+    `@article{christophe2015survey,
+        title={Survey and evaluation of neural computation models for bio-integrated systems},
+        author={Christophe, Francois and Andalibi, Vafa and Laukkarinen, Teemu and Mikkonen, Tommi and Koskimies, Kai},
+        booktitlejournal={Nano Communication Networks},
+        volume={6},
+        number={4},
+        pages={155--165},
+        year={2015},
+        publisher={Elsevier}
+      }`,
+    `@article{honko2015w2e,
+        title={W2E---Wellness Warehouse Engine for Semantic Interoperability of Consumer Health Data},
+        author={Honko, Harri and Andalibi, Vafa and Aaltonen, Timo and Parak, Jakub and Saaranen, Mika and Viik, Jari and Korhonen, Ilkka},
+        booktitle={IEEE journal of biomedical and health informatics},
+        volume={20},
+        number={6},
+        pages={1632--1639},
+        year={2015},
+        publisher={IEEE}
+      }`,
+    `@article{andalibi2019controlling,
+        title={Controlling complexity of cerebral cortex simulations—I: CxSystem, a flexible cortical simulation framework},
+        author={Andalibi, Vafa and Hokkanen, Henri and Vanni, Simo},
+        booktitle={Neural computation},
+        volume={31},
+        number={6},
+        pages={1048--1065},
+        year={2019},
+        publisher={MIT Press}
+      }`,
+    `@article{hokkanen2019controlling,
+        title={Controlling complexity of cerebral cortex simulations—II: Streamlined microcircuits},
+        author={Hokkanen, Henri and Andalibi, Vafa and Vanni, Simo},
+        booktitle={Neural computation},
+        volume={31},
+        number={6},
+        pages={1066--1084},
+        year={2019},
+        publisher={MIT Press}
+      }`,
+    `@article{christophe2017building,
+        title={Building wireless sensor networks with biological cultures: components and integration challenges},
+        author={Christophe, Francois and Laukkarinen, Teemu and Mikkonen, Tommi and Massera, Jonathan and Andalibi, Vafa},
+        booktitle={International Journal of Parallel, Emergent and Distributed Systems},
+        volume={32},
+        number={1},
+        pages={56--73},
+        year={2017},
+        publisher={Taylor \& Francis}
+      }`,
+    `@article{andalibi2016effective,
+        title={Effective Connectivity Analysis in Brain Networks: A GPU-Accelerated Implementation of the Cox Method},
+        author={Andalibi, Vafa and Christophe, Francois and Laukkarinen, Teemu and Mikkonen, Tommi},
+        booktitle={IEEE Journal of Selected Topics in Signal Processing},
+        volume={10},
+        number={7},
+        pages={1226--1237},
+        year={2016},
+        publisher={IEEE}
       }`
 ]
