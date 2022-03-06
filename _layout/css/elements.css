@@ -502,7 +502,16 @@
 		background-color: #fff; 
 	}
 	
-	
+	.subtitle-headline{
+		padding: 0 10px ;
+		background-color: #fff; 
+		position: relative;
+		display: inline-block;
+		padding: 5px 10px;
+		height: 30px;
+		background-color: #fff; 
+		text-transform: none !important;
+	}
 
 /* ==========================================================================
    #Icon Boxes
